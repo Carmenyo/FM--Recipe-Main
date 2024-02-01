@@ -1,0 +1,99 @@
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $Eggshell;
+}
+.bold{
+    font-weight: bold;
+}
+
+.recipe {
+    margin-top: 7rem;
+    background-color: $White;
+    border-radius: 1rem;
+    width: 23rem;
+    padding: 1rem;
+
+    &__info-image {
+        border-radius: 0.3rem;
+        width: 20.5rem;
+    }
+    &__info-title {
+        font-family: $FontFamily-2;
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        word-spacing: 0.2rem;
+    }
+    &__info-paragraph {
+        font-family: $FontFamily-1;
+        margin-top: 0.4rem;
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+    }
+    &__preparation {
+        padding: 1rem;
+        font-family: $FontFamily-1;
+        background-color: $RoseWhite;
+        border-radius: .5rem;  
+    }
+    &__preparation-title {
+        color: $DarkRaspberry;
+        font-size: .61rem;
+        font-weight: 600;
+        word-spacing: .1rem;
+    }
+    &__preparation-list{
+        color: $WengeBrown;
+        margin-left: 1.2rem;
+        font-size: .5rem;
+        line-height: 1rem;
+    }
+    &__ingredients{
+       margin-left: .4rem;
+    }
+    &__ingredients-title{
+        font-family: $FontFamily-2;
+        font-size: .85rem;
+        color: $Nutmeg;
+        margin-bottom: .5rem;
+    }
+    &__ingredients-list{
+        margin-left: 1rem;
+        font-family: $FontFamily-1;
+        font-size: .5rem;
+        line-height: 1rem;
+    }
+    &__instructions{
+        margin-left: .4rem;
+     }
+     &__instructions-title{
+        font-family: $FontFamily-2;
+        font-size: .85rem;
+        color: $Nutmeg;
+        margin-bottom: .5rem;
+    }
+    &__instructions-list{
+        margin-left: 1rem;
+        font-family: $FontFamily-1;
+        font-size: .5rem;
+        line-height: 1rem;
+    }
+    &__nutrition{
+        margin-left: .4rem;
+     }
+     &__nutrition-title{
+        font-family: $FontFamily-2;
+        font-size: .85rem;
+        color: $Nutmeg;
+        margin-bottom: .5rem;
+    }
+    &__nutrition-paragraph {
+        font-family: $FontFamily-1;
+        margin-top: 0.4rem;
+        font-size: 0.5rem;
+        line-height: 0.8rem;
+    }
+}
