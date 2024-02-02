@@ -11,11 +11,11 @@ body {
 }
 
 .recipe {
-    margin-top: 7rem;
+    margin-top: 7.5rem;
     background-color: $White;
     border-radius: 1rem;
     width: 23rem;
-    padding: 1rem;
+    padding: 1.2rem;
 
     &__info-image {
         border-radius: 0.3rem;
@@ -23,7 +23,7 @@ body {
     }
     &__info-title {
         font-family: $FontFamily-2;
-        margin-top: 1rem;
+        margin-top: .9rem;
         font-size: 1.2rem;
         word-spacing: 0.2rem;
     }
@@ -44,31 +44,30 @@ body {
         font-size: .61rem;
         font-weight: 600;
         word-spacing: .1rem;
+        margin-top: .7rem;
     }
     &__preparation-list{
         color: $WengeBrown;
+        margin-top: .3rem;
         margin-left: 1.2rem;
         font-size: .5rem;
         line-height: 1rem;
-    }
-    &__ingredients{
-       margin-left: .4rem;
     }
     &__ingredients-title{
         font-family: $FontFamily-2;
         font-size: .85rem;
         color: $Nutmeg;
+        margin-top: .5rem;
         margin-bottom: .5rem;
     }
     &__ingredients-list{
-        margin-left: 1rem;
+        margin-left: .9rem;
         font-family: $FontFamily-1;
         font-size: .5rem;
         line-height: 1rem;
+        margin-bottom: 1.7rem;
     }
-    &__instructions{
-        margin-left: .4rem;
-     }
+  
      &__instructions-title{
         font-family: $FontFamily-2;
         font-size: .85rem;
@@ -79,11 +78,11 @@ body {
         margin-left: 1rem;
         font-family: $FontFamily-1;
         font-size: .5rem;
-        line-height: 1rem;
+        line-height: .9rem;
+        width: 90%;
+        margin-bottom: 1.8rem;
     }
-    &__nutrition{
-        margin-left: .4rem;
-     }
+  
      &__nutrition-title{
         font-family: $FontFamily-2;
         font-size: .85rem;
@@ -96,4 +95,16 @@ body {
         font-size: 0.5rem;
         line-height: 0.8rem;
     }
+&__nutrition-table{
+    font-family: $FontFamily-1;
+    font-size: .5rem;
+    line-height: 1.3rem;
+    margin-top: .5rem;
+}
+td{
+ 
+   padding-left: .7rem;
+   padding-right: 7.6rem;
+}
+
 }

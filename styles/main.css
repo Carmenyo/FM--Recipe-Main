@@ -18,11 +18,11 @@ body {
 }
 
 .recipe {
-  margin-top: 7rem;
+  margin-top: 7.5rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 1rem;
   width: 23rem;
-  padding: 1rem;
+  padding: 1.2rem;
 }
 .recipe__info-image {
   border-radius: 0.3rem;
@@ -30,7 +30,7 @@ body {
 }
 .recipe__info-title {
   font-family: "Young Serif", serif;
-  margin-top: 1rem;
+  margin-top: 0.9rem;
   font-size: 1.2rem;
   word-spacing: 0.2rem;
 }
@@ -51,30 +51,28 @@ body {
   font-size: 0.61rem;
   font-weight: 600;
   word-spacing: 0.1rem;
+  margin-top: 0.7rem;
 }
 .recipe__preparation-list {
   color: hsl(30, 10%, 34%);
+  margin-top: 0.3rem;
   margin-left: 1.2rem;
   font-size: 0.5rem;
   line-height: 1rem;
-}
-.recipe__ingredients {
-  margin-left: 0.4rem;
 }
 .recipe__ingredients-title {
   font-family: "Young Serif", serif;
   font-size: 0.85rem;
   color: hsl(14, 45%, 36%);
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 .recipe__ingredients-list {
-  margin-left: 1rem;
+  margin-left: 0.9rem;
   font-family: "Outfit", sans-serif;
   font-size: 0.5rem;
   line-height: 1rem;
-}
-.recipe__instructions {
-  margin-left: 0.4rem;
+  margin-bottom: 1.7rem;
 }
 .recipe__instructions-title {
   font-family: "Young Serif", serif;
@@ -86,10 +84,9 @@ body {
   margin-left: 1rem;
   font-family: "Outfit", sans-serif;
   font-size: 0.5rem;
-  line-height: 1rem;
-}
-.recipe__nutrition {
-  margin-left: 0.4rem;
+  line-height: 0.9rem;
+  width: 90%;
+  margin-bottom: 1.8rem;
 }
 .recipe__nutrition-title {
   font-family: "Young Serif", serif;
@@ -102,4 +99,14 @@ body {
   margin-top: 0.4rem;
   font-size: 0.5rem;
   line-height: 0.8rem;
+}
+.recipe__nutrition-table {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.5rem;
+  line-height: 1.3rem;
+  margin-top: 0.5rem;
+}
+.recipe td {
+  padding-left: 0.7rem;
+  padding-right: 7.6rem;
 }/*# sourceMappingURL=main.css.map */
