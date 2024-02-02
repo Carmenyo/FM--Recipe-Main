@@ -16,7 +16,7 @@ body {
     border-radius: 1rem;
     width: 23rem;
     padding: 1.2rem;
-
+//   RECIPE INFO 
     &__info-image {
         border-radius: 0.3rem;
         width: 20.5rem;
@@ -33,6 +33,7 @@ body {
         font-size: 0.5rem;
         line-height: 0.8rem;
     }
+// RECIPE PREPARATION
     &__preparation {
         padding: 1rem;
         font-family: $FontFamily-1;
@@ -53,6 +54,7 @@ body {
         font-size: .5rem;
         line-height: 1rem;
     }
+    // RECIPE INGREDIENTS
     &__ingredients-title{
         font-family: $FontFamily-2;
         font-size: .85rem;
@@ -67,7 +69,7 @@ body {
         line-height: 1rem;
         margin-bottom: 1.7rem;
     }
-  
+    // RECIPE INSTRUCTIONS
      &__instructions-title{
         font-family: $FontFamily-2;
         font-size: .85rem;
@@ -82,7 +84,7 @@ body {
         width: 90%;
         margin-bottom: 1.8rem;
     }
-  
+    // RECIPE NUTRITION
      &__nutrition-title{
         font-family: $FontFamily-2;
         font-size: .85rem;
