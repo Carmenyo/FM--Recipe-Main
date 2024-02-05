@@ -4,6 +4,7 @@ body{
 align-items: flex-start;
 }
 
+
 .recipe{
 padding: 0;
 margin-top: 0;
@@ -35,24 +36,54 @@ margin-top: 0;
 }
 &__preparation-list{
     margin-top: .7rem;
+    padding: 0 1rem;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.8rem;
 }
 // RECIPE INGREDIENTS
 &__ingredients-title{
     font-size: 1.7rem;
-    margin-top: 1.9rem;
-    margin-left: .8rem;
+    margin-top: 2.5rem;
+    margin-left: 1.7rem;
 }
 &__ingredients-list{
-    margin-left: 3rem;
-    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-right: 1.8rem;
     font-size: 1rem;
     line-height: 2rem;
 }
 // RECIPE INSTRUCTIONS
 &__instructions-title{
-    
+    font-size: 1.7rem;
+    margin-top: 2.5rem;
+    margin-left: 1.7rem;
+}
+&__instructions-list{
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:  0 4rem 0 0 ;
+}
+&__nutrition-title{
+    font-size: 1.7rem;
+    margin-top: 6rem;
+    margin-left: 1.7rem;
+}
+&__nutrition-paragraph {
+    font-family: $FontFamily-1;
+    margin-top: 0.4rem;
+    padding: 0 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+&__nutrition-table{
+    font-family: $FontFamily-1;
+    font-size: 1rem;
+    line-height: 2.3rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
 }
 }
 }
