@@ -1,8 +1,59 @@
-@media only screen and (max-width: 375px) {
-.recipe{
-    padding: 0;
-    margin-top: -11rem;
+@media only screen and (max-width: 376px) {
+
+body{
+align-items: flex-start;
 }
 
+.recipe{
+padding: 0;
+margin-top: 0;
+//   RECIPE INFO 
+&__info-image{
+    width: 100%;
+    border-radius: 0;
+}
+&__info-title {
+    font-family: $FontFamily-2;
+    font-size: 2.2rem;
+    margin-top: 2.3rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    line-height: 2.3rem;
+}
+&__info-paragraph{
+    font-family: $FontFamily-1;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding:  .5rem 1.8rem 1rem 1.5rem;
+}
+// RECIPE PREPARATION
+&__preparation {
+    margin: .5rem 2rem 2rem 2.5rem;
+}
+&__preparation-title {
+    font-size: 1.2rem;
+}
+&__preparation-list{
+    margin-top: .7rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+// RECIPE INGREDIENTS
+&__ingredients-title{
+    font-size: 1.7rem;
+    margin-top: 1.9rem;
+    margin-left: .8rem;
+}
+&__ingredients-list{
+    margin-left: 3rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+// RECIPE INSTRUCTIONS
+&__instructions-title{
+    
+}
+}
 }
 
