@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -14,62 +14,64 @@ body {
     margin-top: 7.5rem;
     background-color: $White;
     border-radius: 1rem;
-    width: 23rem;
+    width: 46rem;
     padding: 1.2rem;
     //   RECIPE INFO
     &__info-image {
         border-radius: 0.3rem;
-        width: 20.5rem;
+        width: 100%;
     }
     &__info-title {
         font-family: $FontFamily-2;
         margin-top: 0.9rem;
-        font-size: 1.2rem;
-        word-spacing: 0.2rem;
+        font-size: 2.5rem;
+        font-weight: lighter;
+        margin-left: 1rem;
     }
     &__info-paragraph {
         font-family: $FontFamily-1;
-        margin-top: 0.4rem;
-        font-size: 0.5rem;
-        line-height: 0.8rem;
+        margin: 1rem 1rem 0 1rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
         color: $WengeBrown;
-        margin-bottom: 1rem;
+       
     }
     // RECIPE PREPARATION
     &__preparation {
-        padding: 1rem;
+        margin-top: 2.2rem;
+        padding:  1rem;
         font-family: $FontFamily-1;
         background-color: $RoseWhite;
         border-radius: 0.5rem;
     }
     &__preparation-title {
+        margin-left: 1.5rem;
         color: $DarkRaspberry;
-        font-size: 0.61rem;
+        font-size: 1.25rem;
         font-weight: 600;
         word-spacing: 0.1rem;
     }
     &__preparation-list {
         color: $WengeBrown;
-        margin-top: 0.3rem;
-        margin-left: 1.2rem;
-        font-size: 0.5rem;
-        line-height: 1rem;
+        margin-top: 1.1rem;
+        margin-left: 4.2rem;
+        font-size: 1rem;
+        line-height: 1.8rem;
     }
     // RECIPE INGREDIENTS
     &__ingredients-title {
         font-family: $FontFamily-2;
-        font-size: 0.85rem;
+        font-size: 1.8rem;
         color: $Nutmeg;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
+        margin: 2.5rem 0 1rem 1rem;
     }
     &__ingredients-list {
-        margin-left: 0.9rem;
+        margin: 0 0 1rem 3rem ;
         font-family: $FontFamily-1;
-        font-size: 0.5rem;
-        line-height: 1rem;
-        margin-bottom: 1rem;
+        font-size: 1rem;
+        line-height: 2rem;
         color: $DarkCharcoal;
+     
     }
     &__ingredients-item {
         padding-left: 0.5rem;
@@ -78,46 +80,44 @@ body {
     // RECIPE INSTRUCTIONS
     &__instructions-title {
         font-family: $FontFamily-2;
-        font-size: 0.85rem;
+        font-size: 1.8rem;
         color: $Nutmeg;
-        margin-top: .5rem;
-        margin-bottom: 0.5rem;
+        margin: 2rem 0 1rem 1rem;
     }
     &__instructions-list {
-        margin-left: 1rem;
-        font-family: $FontFamily-1;
-        font-size: 0.5rem;
-        line-height: 0.8rem;
-        width: 90%;
+        margin-left: 3.5rem;
         margin-bottom: 1rem;
+        font-family: $FontFamily-1;
+        font-size: 1rem;
+        font-weight: 100;
+        line-height: 1.6rem;
+        width: 84.5%;
         color: $DarkCharcoal;
     }
     &__instructions-item{
-        margin-bottom: .19rem;
+       margin-bottom: .3rem;
     }
 
     // RECIPE NUTRITION
     &__nutrition-title {
         font-family: $FontFamily-2;
-        font-size: 0.85rem;
+        font-size: 1.8rem;
         color: $Nutmeg;
-        margin-top: .5rem;
-        margin-bottom: .8rem;
+        margin: 2.5rem 0 1.3rem 1rem;
     }
     &__nutrition-paragraph {
         font-family: $FontFamily-1;
-        margin-top: 0.4rem;
-        font-size: 0.5rem;
-        line-height: 0.8rem;
+        margin-top: 0.5rem 0 1rem 1rem; 
+        font-size: 1rem;
     }
     &__nutrition-table {
         font-family: $FontFamily-1;
-        font-size: 0.5rem;
-        line-height: 1.3rem;
-        margin-top: 2rem;
-        margin: auto;
+        font-size: 1rem;
+        line-height: 2.3rem;
+        margin: auto auto 3rem auto;
         border-collapse: collapse;
         width: 90%;
+        
     }
     td {
         border-bottom: 1px solid rgba(157, 132, 132, 0.803);
