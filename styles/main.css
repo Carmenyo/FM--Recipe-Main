@@ -184,7 +184,7 @@ body {
   }
   .recipe__instructions-title {
     font-size: 1.7rem;
-    margin-top: 2.5rem;
+    margin-top: 2rem;
     margin-left: 1.7rem;
   }
   .recipe__instructions-list {
@@ -196,7 +196,7 @@ body {
   }
   .recipe__nutrition-title {
     font-size: 1.7rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
     margin-left: 1.7rem;
   }
   .recipe__nutrition-paragraph {
@@ -209,7 +209,7 @@ body {
   .recipe__nutrition-table {
     font-family: "Outfit", sans-serif;
     font-size: 1rem;
-    line-height: 2.3rem;
+    line-height: 3rem;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
   }
