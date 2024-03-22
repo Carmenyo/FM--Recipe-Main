@@ -135,7 +135,8 @@ body {
 }
 
 @media only screen and (max-width: 376px) {
-  .line, .line2 {
+  .line,
+  .line2 {
     width: 90%;
     margin: auto;
   }
@@ -170,9 +171,9 @@ body {
   }
   .recipe__preparation-list {
     margin-top: 0.7rem;
-    padding: 0 1rem;
     font-size: 1rem;
     line-height: 1.8rem;
+    margin-left: 1rem;
   }
   .recipe__ingredients-title {
     font-size: 1.7rem;
